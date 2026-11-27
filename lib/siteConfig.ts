@@ -81,7 +81,7 @@ export const siteConfig = {
     }
   ),
   serviceArea: "All over India",
-  siteUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://www.ezzibearing.site").replace(/\/$/, ""),
+  siteUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://ezzibearing.site").replace(/\/$/, ""),
   brands: ["SKF", "TATA", "XNO", "DSF"],
 
   // Extended properties and helpers for UI components, SEO, and navigation
